@@ -1,127 +1,177 @@
+
 {
-    "about_nav": "Acerca de mí",
+    "about_nav": "Sobre mí",
     "cv_nav": "CV",
     "email": "Correo electrónico",
     "telephone": "Celular",
     "age": "Edad",
     "location": "Ubicación",
+
     "about_title": "Sobre mí",
+
     "skills_title": "¿Qué sé hacer?",
-    "qa_manual": "QA Manual",
-    "qa_manual_desc": "Creación y ejecución de casos de prueba. Reporte y seguimiento de bugs",
-    "qa_auto": "QA Automation",
-    "qa_auto_desc": "Desarrollo y ejecución de scripts automatizados con Cypress y Selenium.",
-    "api_testing": "API Testing",
-    "api_desc": "Exploración y validación de endpoints REST con Postman y Swagger.",
-    "teamwork": "Trabajo en equipo",
-    "teamwork_desc": "Comunicación continua con los equipos de desarrollo y QA.",
+
+    "qa_manual": "Edición de video",
+    "qa_manual_desc": "Edición de videos largos, Reels y contenido vertical para YouTube, Instagram y TikTok.",
+
+    "qa_auto": "Edición de audio",
+    "qa_auto_desc": "Limpieza, edición y tratamiento de audio para mejorar la calidad y claridad del contenido.",
+
+    "api_testing": "Diseño de contenido",
+    "api_desc": "Creación de miniaturas y piezas visuales para acompañar y potenciar el contenido audiovisual.",
+
+    "teamwork": "Adaptación a plataformas",
+    "teamwork_desc": "Adaptación de videos y formatos según las necesidades de YouTube, Instagram, TikTok y otras plataformas.",
+
     "testimonials": "Testimonios",
+
     "projects_title": "Proyectos",
+
     "experience": "Experiencia",
     "exp_title": "Experiencia",
     "work_experiencie": "Experiencia laboral",
     "experiencie": "Experiencia",
+
     "projects": "Proyectos",
     "skills": "Habilidades",
     "contact": "Contacto",
+
     "lets_connect": "Conectemos",
-    "downloads": "Descargá mi CV para conocer en detalle mi experiencia, habilidades y proyectos.",
-    "drop_message": "Podés contactarme por LinkedIn o enviarme un email directo",
+
+    "downloads": "Descargá mi CV para conocer en detalle mi experiencia, formación y habilidades.",
+
+    "drop_message": "Podés contactarme por LinkedIn o enviarme un email directo.",
+
     "fullname_placeholder": "Nombre",
     "email_placeholder": "Correo electrónico",
-    "leave_message_placeholder": "Deja tu mensaje",
+    "leave_message_placeholder": "Dejá tu mensaje",
     "send": "Enviar",
+
     "cv_es": "Descargar CV en español",
     "cv_en": "Descargar CV en inglés",
     "send_email": "Enviar email",
-    "exp_teamknowlogy": "• Testing manual y automatizado (Cypress y Selenium)...",
-    "testimonial_1": "Tuve la oportunidad de trabajar con Alejandro...",
-    "about_intro": "🔍 <b style='font-weight:800;'>QA Tester</b> con 3 años de experiencia en el área de IT realizando pruebas manuales y automatizadas (Cypress / Selenium)",
-    "about_methods": "🚀 <b style='font-weight:800;'>Metodologías:</b> Trabajo con metodologías ágiles, principalmente Kanban, y utilizo herramientas como Jira para gestionar eficientemente el ciclo de vida de bugs y casos de prueba.",
-    "about_growth": "🛠 <b style='font-weight:800;'>En constante crecimiento:</b> Actualmente, amplío mis habilidades en automatización, pruebas de APIs y procesos de integración continua (CI/CD).",
-    "about_goal": "🎯 <b style='font-weight:800;'>Mi objetivo:</b> Garantizar la calidad de las aplicaciones web mediante un enfoque meticuloso en las pruebas y el análisis de defectos críticos y asegurar una experiencia de usuario excepcional y aportar a la mejora continua de los productos con los que trabajo.",
-    "courses": "Cursos realizados",
-    "audiovision": "Licenciatura en Audiovisión",
-    "blog": "Taller QA",
-    "personal": "Prácticas",
+
+    "exp_teamknowlogy": "QA Manual / Automation — 2022 - 2025",
+
+    "testimonial_1": "Profesional responsable, comprometido y con gran capacidad de trabajo en equipo.",
+
+    "about_intro": "🎬 <b style='font-weight:800;'>Editor de video</b> con formación en Audiovisión y experiencia en la creación y edición de contenido para plataformas digitales.",
+
+    "about_methods": "🎞️ <b style='font-weight:800;'>Edición:</b> Trabajo principalmente con Premiere Pro y CapCut, realizando edición de videos largos, Reels, Shorts y contenido vertical.",
+
+    "about_growth": "🎧 <b style='font-weight:800;'>Audio y diseño:</b> También cuento con experiencia en edición y tratamiento de audio utilizando Audacity y Pro Tools, además de diseño de piezas y miniaturas con Canva.",
+
+    "about_goal": "🎯 <b style='font-weight:800;'>Mi objetivo:</b> Crear contenido audiovisual claro, dinámico y atractivo, cuidando tanto el ritmo y la narrativa como los detalles visuales y sonoros.",
+
+    "courses": "Formación",
+
+    "audiovision": "Tecnicatura en Audiovisión",
+
+    "blog": "Producción audiovisual",
+
+    "personal": "Proyectos personales",
+
     "present": "Presente",
-    "footer": "© 2025 Alejandro Amoza — Hecho con ❤️",
+
+    "footer": "© 2026 Alejandro Amoza — Hecho con ❤️",
+
     "testimonial": {
-        "agustin": "Tuve la oportunidad de trabajar con Alejandro durante un tiempo en TeamKnowlogy y fue una experiencia muy positiva. Como QA Tester, demostró compromiso, atención al detalle y una muy buena comunicación con el equipo de desarrollo. A pesar del corto tiempo compartido, su profesionalismo y buena predisposición dejaron una excelente impresión.",
-        "lorenzo": "Trabajé con Ale siendo él QA y yo estando en desarrollo frontend. La verdad, un placer compartir espacio de trabajo. Siempre con una gran predisposición y compromiso constante con el equipo, resolutivo y con el mejor de los tratos con todos! Además, super abierto a la escucha, al trabajo en equipo, constructivo y siempre aportando desde su rol para que podamos entregar un mejor producto. Transmitía buena energía incluso en los momentos de más presión, y eso hacía una gran diferencia. Sería un lujo volver a compartir equipo con él.",
-        "julio": "Es un placer recomendar a Alejandro como un profesional excepcional con quien he tenido el privilegio de trabajar. Durante nuestro tiempo juntos, he podido apreciar su dedicación inquebrantable, su calidez humana y su notable profesionalismo. Alejandro destaca por su capacidad para mantener un alto nivel de compromiso y excelencia en todo lo que hace. Su enfoque meticuloso en las tareas y su habilidad para superar obstáculos demuestran su compromiso con la calidad y la eficiencia en el trabajo. Además de sus habilidades técnicas, su empatía y respeto hacia sus colegas son verdaderamente admirables. Siempre está dispuesto a escuchar y ofrecer apoyo, lo que crea un ambiente de trabajo colaborativo y armonioso. En resumen, Alejandro es una persona excepcional tanto profesional como personalmente. Su ética de trabajo, su empatía y su compromiso con la excelencia son ejemplos a seguir para todos los que tienen el privilegio de trabajar a su lado.",
-        "ramiro": "Alejandro, Una de las mejores personas que me toco conocer en todos mis trabajos de desarrollo de software. Una persona que busca soluciones en todo momento, que jamás te abandonará en momentos dificiles y que la proactividad laboral es un don nato anexo a él. La capacidad de aprendizaje y adaptabilidad a nuevos entornos son algunas de sus virtudes que más me han sorprendido a lo largo de los años trabajando junto a él. Pocas personas tan recomendables y que me ha resultado tan fácil escribir estas palabras refiriendome a Alejandro. En resumen, un empleado que todas las empresas (pequeñas, medianas y grandes) desearían tener presente.",
-        "dani": "Compartí equipo de trabajo con Alejandro y fue un excelente compañero, es una persona que siempre está predispuesta a ayudar y muy atenta ante cualquier detalle."
+        "agustin": "Alejandro es una persona responsable, comprometida y con una excelente predisposición para trabajar en equipo.",
+        "lorenzo": "Siempre se destacó por su compromiso, capacidad de adaptación y atención al detalle.",
+        "julio": "Profesional dedicado, meticuloso y comprometido con la calidad de su trabajo.",
+        "ramiro": "Una persona proactiva, resolutiva y con gran capacidad de aprendizaje y adaptación.",
+        "dani": "Excelente compañero, siempre predispuesto a ayudar y muy atento ante cada detalle."
     },
+
     "techforb": {
-        "1": "QA Tester encargado del aseguramiento de calidad de aplicaciones web.",
-        "2": "Creación y ejecución de casos de prueba en Testmo",
-        "3": "Registro y seguimiento de incidencias en Jira",
-        "4": "Validación de requerimientos e historias de usuario",
-        "5": "Pruebas funcionales en aplicaciones web y APIs con Postman",
-        "6": "Colaboración en entornos ágiles (Scrum/Kanban) con equipos distribuidos"
+        "1": "Ejecución de pruebas manuales para aplicaciones web.",
+        "2": "Diseño y ejecución de casos de prueba funcionales y de regresión.",
+        "3": "GGestión y seguimiento de incidencias mediante Jira",
+        "4": "Gestión y documentación de casos de prueba en Testmo.",
+        "5": "Registro y seguimiento de resultados de pruebas y reporte de defectos",
+        "6": "Colaboración con equipos distribuidos."
     },
+
     "teamknowlogy": {
-        "1": "QA Tester encargado del aseguramiento de calidad de aplicaciones web.",
-        "2": "Diseño y ejecución de casos de prueba manuales y automatizados.",
-        "3": "Reporte y seguimiento de bugs en JIRA bajo metodología Kanban.",
-        "4": "Automatización de pruebas con Cypress (JavaScript) y Selenium (Java).",
-        "5": "Testing de APIs con Postman y pruebas de rendimiento con JMeter.",
-        "6": "Colaboración con desarrolladores y product owners en entornos ágiles para garantizar entregas de calidad."
+        "1": "Ejecución de pruebas manuales y automatizadas para aplicaciones web.",
+        "2": "Automatización de casos de prueba con Cypress y Selenium.",
+        "3": "Mejora y mantenimiento de la documentación del área de QA.",
+        "4": "Gestión de incidencias y trabajo colaborativo bajo metodología Kanban.",
+        "5": "Testing de APIs y pruebas de rendimiento.",
+        "6": "Colaboración con desarrolladores y equipos ágiles."
     },
+
     "elektrothermit": {
-        "1": "Encargado de compras y logística. Gestión de personal, SQL y soporte administrativo."
+        "1": "Encargado de compras y logística. Coordinación de proveedores, personal y tareas administrativas."
     },
+
     "mad": {
-        "1": "Asistencia técnica en grabación y sonido. Gestión de redes sociales y servicios audiovisuales."
+        "1": "Asistencia técnica en grabación y edición de audio.",
+        "2": "Soporte en producciones audiovisuales.",
+        "3": "Gestión de redes sociales y contenido digital.",
+        "4": "Asistencia en servicios audiovisuales."
     },
-    "akua": {
-        "1": "Pasantía administrativa: soporte documental, facturación y asistencia en tareas de oficina."
+
+     "deportadas": {
+        "1": "Producción y edición de videos para YouTube, Instagram y TikTok.",
+        "2": "Edición de videos largos, Reels y contenido en formato vertical.",
+        "3": "Incorporación de subtítulos, edición de audio y adaptación del contenido a cada plataforma.",
+        "4": "Diseño de miniaturas, publicación y seguimiento de contenido."
     },
+
     "course": {
-        "8": "Selenium con Python (The free range tester) - Udemy (2025)",
-        "7": "ETL Data Testing (The free range tester) - Udemy (2025)",
-        "6": "Playwright (The free range tester) - Udemy (2025)",
-        "5": "Apache Jmeter (Rodrigo V. Nieto) - Udemy (2025)",
-        "4": "Postman (The free range tester) - Udemy (2024)",
-        "3": "API Testing (Nadia Cavalleri) - Udemy (2024)",
-        "2": "Selenium WebDriver with Java (Rahul Shetty) - Udemy (2024)",
-        "1": "Cypress: Master en automatización en QA (Rodrigo V. Nieto) - Udemy (2023)"
+        "8": "Edición de video con Premiere Pro",
+        "7": "Edición de video para contenido digital",
+        "6": "Edición y tratamiento de audio con Audacity",
+        "5": "Edición de audio con Pro Tools",
+        "4": "Diseño de contenido con Canva",
+        "3": "Producción audiovisual",
+        "2": "Tecnicatura en Audiovisión",
+        "1": "Creación de contenido para redes sociales"
     },
+
     "it_education": {
-        "0": "Carrera en QA",
-        "1": "• Tester QA Manual",
-        "2": "• Introducción a Bases de datos y SQL",
-        "3": "• Javascript desde cero"
+        "0": "Carrera de Testing QA",
+        "1": "• Tecnicatura en Audiovisión",
+        "2": "• Producción audiovisual",
+        "3": "• Edición de video y audio"
     },
+
     "skill": {
-        "1": "Cypress (JavaScript)",
-        "2": "Selenium (Java)",
-        "3": "Testing manual (UI)",
-        "4": "JIRA",
-        "5": "SQL",
-        "6": "Postman",
-        "7": "Playwright (TypeScript)",
-        "8": "Selenium (Python)",
-        "9": "Jmeter"
+        "1": "Adobe Premiere Pro",
+        "2": "CapCut",
+        "3": "Edición de video",
+        "4": "Edición de Reels y Shorts",
+        "5": "Edición de audio",
+        "6": "Audacity",
+        "7": "Pro Tools",
+        "8": "Canva",
+        "9": "Contenido para redes sociales"
     },
+
     "personal_projects": {
-        "selenium_python": "Automation testing",
-        "selenium_python2": "SauceDemo con Selenium (Python)",
-        "selenium_python3": "Proyecto de automatización E2E usando Selenium, Python, Pytest y POM.",
-        "api_testing_playwright": "API Testing",
-        "api_testing_playwright2": "JsonPlaceholder bajo API Testing con Playwright",
-        "api_testing_playwright3": "Validación de endpoints públicos: status HTTP, estructura de respuesta, campos requeridos e ID generado.",
-        "ui_testing_playwright": "UI Testing",
-        "ui_testing_playwright2": "Login automatizado en OrangeHRM con Playwright",
-        "ui_testing_playwright3": "Casos de prueba: login válido, inválido, campos vacíos y redirecciones.",
-        "api_testing_postman": "API Testing",
-        "api_testing_postman2": "FakeStoreAPI con Postman",
-        "api_testing_postman2b": "DummyJson con Postman",
-        "api_testing_postman3b": "Test CRUD de productos sobre usuarios y productos usando Postman.",
-        "api_testing_postman3": "Test de login y CRUD de productos usando Postman.",
-        "api_testing_karate": "API Testing",
-        "api_testing_karate2": "JsonPlaceholder bajo API Testing con Karate",
-        "api_testing_karate3": "Validación de endpoints públicos."
+        "selenium_python": "Edición de video",
+        "selenium_python2": "Deportadas — YouTube",
+        "selenium_python3": "Proyecto personal de creación y edición de contenido audiovisual sobre diseño y cultura popular.",
+
+        "api_testing_playwright": "Contenido para redes sociales",
+        "api_testing_playwright2": "Deportadas — Reels y Shorts",
+        "api_testing_playwright3": "Creación y edición de contenido vertical adaptado para Instagram, TikTok y YouTube Shorts.",
+
+        "ui_testing_playwright": "Edición de video",
+        "ui_testing_playwright2": "Videos largos para YouTube",
+        "ui_testing_playwright3": "Edición de contenido narrativo, incorporación de imágenes, música, subtítulos y adaptación del material.",
+
+        "api_testing_postman": "Edición audiovisual",
+        "api_testing_postman2": "Contenido digital",
+        "api_testing_postman2b": "Piezas audiovisuales para redes sociales",
+        "api_testing_postman3b": "Edición y adaptación de contenido para distintos formatos y plataformas.",
+
+        "api_testing_postman3": "Diseño y edición",
+        "api_testing_postman3b": "Miniaturas y piezas visuales para contenido digital.",
+
+        "api_testing_karate": "Proyecto audiovisual",
+        "api_testing_karate2": "Producción y edición",
+        "api_testing_karate3": "Desarrollo de contenido audiovisual desde la edición hasta su adaptación para plataformas digitales."
     }
 }
