@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Alejandro Amoza</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/qa.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/ale.jpg" alt="Alejandro Amoza" width="100" style="border-radius: 50%;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Alejandro Amoza">Alejandro Amoza</h1>
+
+          <p class="title">QA Software Tester</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span data-i18n="contact">Contacto</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title" data-i18n="email"></p>
+
+              <a href="mailto:amozaalejandro@gmailcom" class="contact-link">amozaalejandro@gmailcom</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title" data-i18n="telephone"></p>
+
+              <a href="tel:+54 9 11 3643-5449" class="contact-link">+54 9 11 36435449</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title" data-i18n="age">Edad</p>
+
+              <time datetime="1993-05-10" data-i18n="age_number">32</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title" data-i18n="location"></p>
+
+              <address data-i18n="address">GBA Sur, Argentina</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/alejandro-amoza" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/alejandro-amoza" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/qa.amoza" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <div class="language-switcher">
+              <img src="./assets/images/es.svg" alt="Español" onclick="setLanguage('es')" class="lang-icon"
+                title="Español" style="border-radius: 50%;">
+              <img src="./assets/images/en.svg" alt="English" onclick="setLanguage('en')" class="lang-icon"
+                title="English" style="border-radius: 50%;">
+            </div>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link data-page="about" data-i18n="about_nav"></button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-page="cv" data-i18n="cv_nav"></button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-page="blog" data-i18n="blog"></button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-page="contact" data-i18n="contact"></button>
+          </li>
+          <!--
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          -->
+
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title" data-i18n="about_title"></h2>
+        </header>
+
+        <section class="about-text">
+          <p data-i18n-html="about_intro"></p>
+
+          <p data-i18n-html="about_methods"></p>
+
+          <p data-i18n-html="about_growth"></p>
+
+          <p data-i18n-html="about_goal"></p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title" data-i18n="skills_title"></h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" data-i18n="qa_manual"></h4>
+
+                <p class="service-item-text" data-i18n="qa_manual_desc">
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" data-i18n="qa_auto"></h4>
+
+                <p class="service-item-text" data-i18n="qa_auto_desc">
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/api.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" data-i18n="api_testing"></h4>
+
+                <p class="service-item-text" data-i18n="api_desc">
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-work.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title" data-i18n="teamwork"></h4>
+
+                <p class="service-item-text" data-i18n="teamwork_desc">
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title" data-i18n="testimonials"></h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-agus.jpg" alt="Agustin Palavecino" width="60"
+                    data-testimonials-avatar style="border-radius: 50%;">
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Agustín Palavecino <span
+                    class="testimonials-role">(Developer)</span></h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p data-i18n="testimonial.agustin"></p>
+                </div>
+
+                <time datetime="2022-05-14" data-testimonials-date
+                  data-testimonials-link="https://www.linkedin.com/in/alejandro-amoza/details/recommendations/?detailScreenTabIndex=0">14/05/2025</time>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-loren.jpg" alt="Lorenzo Spallione" width="60"
+                    data-testimonials-avatar style="border-radius: 50%;">
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Lorenzo Spallione <span
+                    class="testimonials-role">(Developer Js)</span></h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p data-i18n="testimonial.lorenzo"></p>
+                </div>
+
+                <time datetime="2022-05-12" data-testimonials-date
+                  data-testimonials-link="https://www.linkedin.com/in/alejandro-amoza/details/recommendations/?detailScreenTabIndex=0">12/05/2025</time>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-julio.jpg" alt="Julio D'Orazi" width="60" data-testimonials-avatar
+                    style="border-radius: 50%;">
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Julio D'Orazi <span
+                    class="testimonials-role">(Software Engineer)</span></h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p data-i18n="testimonial.julio"></p>
+                </div>
+
+                <time datetime="2024-02-23" data-testimonials-date
+                  data-testimonials-link="https://www.linkedin.com/in/alejandro-amoza/details/recommendations/?detailScreenTabIndex=0">23/02/2024</time>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-ramiro.jpg" alt="Ramiro Romero" width="60" data-testimonials-avatar
+                    style="border-radius: 50%;">
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ramiro Romero <span
+                    class="testimonials-role">(Technical Team Lead)</span></h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p data-i18n="testimonial.ramiro"></p>
+                </div>
+
+                <time datetime="2023-12-31" data-testimonials-date
+                  data-testimonials-link="https://www.linkedin.com/in/alejandro-amoza/details/recommendations/?detailScreenTabIndex=0">31/12/2023</time>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-dani.jpg" alt="Daniel Zaccaria" width="60" data-testimonials-avatar
+                    style="border-radius: 50%;">
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel Zaccaria <span
+                    class="testimonials-role">(QA Tester Automation)</span></h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p data-i18n="testimonial.dani"></p>
+                </div>
+
+                <time datetime="2022-02-21" data-testimonials-date
+                  data-testimonials-link="https://www.linkedin.com/in/alejandro-amoza/details/recommendations/?detailScreenTabIndex=0">21/02/2022</time>
+
+              </div>
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box" style="border-radius: 50%;">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="" data-modal-date></time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title" data-i18n="projects"></h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://www.avla.com/cl" target="_blank">
+                <img src="./assets/images/avlasvg.svg" alt="AVLA">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://squint.io/" target="_blank">
+                <img src="./assets/images/squint.png" alt="SQUINT">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://itsabout.io/" target="_blank">
+                <img class="itsabout-img" src="./assets/images/itsabout.png" alt="itsabout">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://elektrothermit.com/" target="_blank">
+                <img class="eta-img" src="./assets/images/ETA.png" alt="ETA">
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="cv" data-page="cv">
+
+        <header>
+          <h2 class="h2 article-title" data-i18n="experience"></h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3" data-i18n="work_experiencie"></h3>
+          </div>
+
+          
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Techforb</h4>
+
+              <span>2025 - <span data-i18n="present" style="display:inline">Presente</span></span>
+
+              <div class="timeline-text">
+                <p data-i18n="techforb.1"></p>
+                <p data-i18n="techforb.2"></p>
+                <p data-i18n="techforb.3"></p>
+                <p data-i18n="techforb.4"></p>
+                <p data-i18n="techforb.5"></p>
+                <p data-i18n="techforb.6"></p>
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TeamKnowlogy</h4>
+
+              <span>2022 - 2025</span>
+
+              <div class="timeline-text">
+                <p data-i18n="teamknowlogy.1"></p>
+                <p data-i18n="teamknowlogy.2"></p>
+                <p data-i18n="teamknowlogy.3"></p>
+                <p data-i18n="teamknowlogy.4"></p>
+                <p data-i18n="teamknowlogy.5"></p>
+                <p data-i18n="teamknowlogy.6"></p>
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Elektrothermit Argentina SRL</h4>
+
+              <span>2021-2022</span>
+
+              <div class="timeline-text">
+                <p data-i18n="elektrothermit.1"></p>
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Estudio Mad</h4>
+
+              <span>2016-2022</span>
+
+              <div class="timeline-text">
+                <p data-i18n="mad.1"></p>
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Akua S.A.</h4>
+
+              <span>2010</span>
+
+              <div class="timeline-text">
+                <p data-i18n="akua.1"></p>
+              </div>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educación</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title" data-i18n="courses"></h4>
+
+              <span>2023/2024/2025</span>
+
+              <div class="timeline-text">
+                <p data-i18n="course.8"></p>
+                <p data-i18n="course.7"></p>
+                <p data-i18n="course.6"></p>
+                <p data-i18n="course.5"></p>
+                <p data-i18n="course.4"></p>
+                <p data-i18n="course.3"></p>
+                <p data-i18n="course.2"></p>
+                <p data-i18n="course.1"></p>
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Educación IT</h4>
+
+              <span>2022</span>
+
+              <div class="timeline-text">
+                <p data-i18n="it_education.0"></p>
+                <p data-i18n="it_education.1"></p>
+                <p data-i18n="it_education.2"></p>
+                <p data-i18n="it_education.3"></p>
+              </div>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Liceo Cultural Britanico</h4>
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                Level 7 (B1-B2)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Universidad Nacional de Lanús</h4>
+
+              <span>2019 — presente</span>
+
+              <p class="timeline-text" data-i18n="audiovision">
+
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title" data-i18n="skills"></h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5" data-i18n="skill.3"></h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5" data-i18n="skill.1"></h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5" data-i18n="skill.7"></h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5" data-i18n="skill.8"></h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5" data-i18n="skill.2"></h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5" data-i18n="skill.4"></h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5" data-i18n="skill.6"></h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5" data-i18n="skill.5"></h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5" data-i18n="skill.9"></h5>
+                <data value="20">20%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Testing Manual</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Automation</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Performance</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Testing Manual</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Automation</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Performance</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="automation">
+              <a href="https://underc0de.org">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Underc0de</h3>
+
+                <p class="project-category">Automation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="automation">
+              <a href="https://underc0de.org">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Underc0de</h3>
+
+                <p class="project-category">Automation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title" data-i18n="personal"></h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://github.com/alejandro-amoza/dummyjson-postman" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/dummyjsonpostman.png" alt="API Testing con Postman" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category" data-i18n="personal_projects.api_testing_postman"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-07-11">07/08/2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title" data-i18n="personal_projects.api_testing_postman2b"></h3>
+
+                  <p class="blog-text" data-i18n="personal_projects.api_testing_postman3b">
+
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+             <li class="blog-post-item">
+              <a href="https://github.com/alejandro-amoza/karateJsonPlaceholder" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/karate.png" alt="API Testing con Karate" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category" data-i18n="personal_projects.api_testing_karate"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-07-11">01/08/2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title" data-i18n="personal_projects.api_testing_karate2"></h3>
+
+                  <p class="blog-text" data-i18n="personal_projects.api_testing_karate3">
+
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            
+            <li class="blog-post-item">
+              <a href="https://github.com/alejandro-amoza/saucedemo_selenium_python" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/saucedemo.png" alt="Automatización con Selenium Python" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category" data-i18n="personal_projects.selenium_python"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-07-11">11/07/2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title" data-i18n="personal_projects.selenium_python2"></h3>
+
+                  <p class="blog-text" data-i18n="personal_projects.selenium_python3">
+
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://github.com/alejandro-amoza/jsonPlaceholderAPI" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/playwright-api.jpg" alt="Playwright + JsonPlaceholder API Testing"
+                    loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category" data-i18n="personal_projects.api_testing_playwright"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-06-27">27/06/2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title" data-i18n="personal_projects.api_testing_playwright2"></h3>
+
+                  <p class="blog-text" data-i18n="personal_projects.api_testing_playwright3"></p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://github.com/alejandro-amoza/orangehrm-playwright" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/hrm.jpg" alt="OrangeHRM con Playwright" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category" data-i18n="personal_projects.ui_testing_playwright"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-06-13">13/06/2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title" data-i18n="personal_projects.ui_testing_playwright2"></h3>
+
+                  <p class="blog-text" data-i18n="personal_projects.ui_testing_playwright3">
+                    
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://github.com/alejandro-amoza/fakestoreapi-postman" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/fakestoreapi.jpg" alt="FakeStoreAPI con Postman" loading=" lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category" data-i18n="personal_projects.api_testing_postman"></p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-06-01">01/06/2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title" data-i18n="personal_projects.api_testing_postman2"></h3>
+
+                  <p class="blog-text" data-i18n="personal_projects.api_testing_postman3">                 
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title" data-i18n="contact"></h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26199.970176669565!2d-58.40152615000001!3d-34.83118625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd49a149975bd%3A0xcc1f98519388f175!2sB1852%20Burzaco%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1741236498925!5m2!1ses-419!2sar"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <!-- <h3 class="h3 form-title" data-i18n="lets_connect"></h3>
+          <p class="form-subtitle" data-i18n="drop_message"></p><br> -->
+
+          <form action="#" class="form" data-form>
+
+            <!-- <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nombre y apellido" required
+                data-form-input data-i18n-placeholder="fullname_placeholder">
+ -->
+
+            <!-- <input type="email" name="email" class="form-input" placeholder="Correo electrónico" required
+                data-form-input data-i18n-placeholder="email_placeholder">
+            </div> -->
+
+            <!-- <textarea name="message" class="form-input" placeholder="Deja tu mensaje" required data-form-input
+              data-i18n-placeholder="leave_message_placeholder"></textarea> -->
+
+            <!-- <button class="form-btn" type="submit" disabled data-form-btn data-i18n="send">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span></span>
+            </button> -->
+
+          </form>
+
+          <section class="contact-form">
+
+            <h3 class="h3 form-title" data-i18n="lets_connect"></h3>
+            <p class="form-subtitle" data-i18n="drop_message"></p>
+
+            <div class="button-group">
+
+              <a href="https://www.linkedin.com/in/alejandro-amoza" target="_blank" rel="noopener noreferrer"
+                class="contact-button linkedin">LinkedIn</a>
+
+              <a href="mailto:amozaalejandro@gmail.com" class="contact-button email" data-i18n="send_email"></a>
+
+            </div>
+
+
+            <p class="form-subtitle" data-i18n="downloads"></p>
+
+            <div class="button-group">
+
+
+              <a href="./assets/docs/CV - Alejandro amoza.pdf" download class="contact-button" data-i18n="cv_es"></a>
+              <a href="./assets/docs/Resume - Alejandro amoza.pdf" download class="contact-button"
+                data-i18n="cv_en"></a>
+
+
+            </div>
+
+          </section>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+
+<script src="./assets/js/lang.js"></script>
+
+<footer class="footer" data-i18n="footer">
+</footer>
